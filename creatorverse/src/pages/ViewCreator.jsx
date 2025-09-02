@@ -42,7 +42,7 @@ export default function ViewCreator() {
       alert("Failed to delete creator");
     } else {
       alert("Creator deleted");
-      navigate("/"); // back to homepage
+      navigate("/"); // homepage
     }
   }
 
@@ -51,7 +51,7 @@ export default function ViewCreator() {
 
   return (
     <div>
-      <h2 className="page-title">👤 Creator Profile</h2>
+      <h2 className="page-title">Creator Profile</h2>
       <div className="card-grid">
         <CreatorCard {...creator} />
       </div>

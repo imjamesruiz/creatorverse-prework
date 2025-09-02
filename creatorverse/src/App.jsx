@@ -1,17 +1,17 @@
 import { BrowserRouter as Router, useRoutes } from "react-router-dom";
 
-// Import pages
+// import pages
 import ShowCreators from "./pages/ShowCreators";
 import ViewCreator from "./pages/ViewCreator";
 import AddCreator from "./pages/AddCreator";
 import EditCreator from "./pages/EditCreator";
 
-// Import shared components
+// import components
 import Navbar from "./components/Navbar";
 import "./App.css";
 
 function AppRoutes() {
-  // Define route config
+  // route config
   const routes = useRoutes([
     { path: "/", element: <ShowCreators /> },
     { path: "/creator/:id", element: <ViewCreator /> },

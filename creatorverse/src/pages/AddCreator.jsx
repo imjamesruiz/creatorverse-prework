@@ -18,16 +18,16 @@ export default function AddCreator() {
 
     if (error) {
       console.error("Error adding creator:", error);
-      alert("❌ Something went wrong while adding the creator.");
+      alert("Error adding creator!");
     } else {
-      alert("✅ Creator added!");
+      alert("Creator added!");
       navigate("/"); // Go back to homepage
     }
   }
 
   return (
     <div>
-      <h2 className="page-title">➕ Add a New Creator</h2>
+      <h2 className="page-title">Add a New Creator</h2>
       <form className="creator-form" onSubmit={handleSubmit}>
         <input
           type="text"

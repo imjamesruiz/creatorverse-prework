@@ -21,15 +21,14 @@ export default function ShowCreators() {
   }, []);
 
   return (
-    <div>
-      <h2 className="page-title">🌟 All Creators</h2>
+    <div className="creators-page">
+      <h2 className="page-title">View Creators</h2>
 
       {/* Add Creator button */}
       <Link to="/add">
-        <button className="add-btn">➕ Add New Creator</button>
+        <button className="add-btn">Add New Creator</button>
       </Link>
 
-      {/* Conditional rendering */}
       {loading ? (
         <p>Loading creators...</p>
       ) : creators.length === 0 ? (
