@@ -35,7 +35,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-👉🏿<img src='https://www.youtube.com/watch?v=jwZdikdRpEY' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+[Video Demo: ](url)](https://www.youtube.com/watch?v=jwZdikdRpEY)
+
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  👉🏿 GIF tool here
