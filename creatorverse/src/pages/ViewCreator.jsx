@@ -52,7 +52,7 @@ export default function ViewCreator() {
   return (
     <div>
       <h2 className="page-title">Creator Profile</h2>
-      <div className="card-grid">
+      <div className="card-grid-solo">
         <CreatorCard {...creator} />
       </div>
 
