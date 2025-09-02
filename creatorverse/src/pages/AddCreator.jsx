@@ -21,7 +21,7 @@ export default function AddCreator() {
       alert("Error adding creator!");
     } else {
       alert("Creator added!");
-      navigate("/"); // Go back to homepage
+      navigate("/"); // redirect
     }
   }
 

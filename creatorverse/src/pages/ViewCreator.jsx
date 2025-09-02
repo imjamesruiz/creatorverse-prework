@@ -28,7 +28,7 @@ export default function ViewCreator() {
     fetchCreator();
   }, [id]);
 
-  // Delete function
+  // delete
   async function handleDelete() {
     const confirmDelete = window.confirm(
       "Are you sure you want to delete this creator? This cannot be undone."

@@ -14,7 +14,7 @@ export default function EditCreator() {
   });
   const [loading, setLoading] = useState(true);
 
-  // Fetch creator to prefill the form
+  // fetch creator
   useEffect(() => {
     async function fetchCreator() {
       const { data, error } = await supabase
@@ -49,9 +49,9 @@ export default function EditCreator() {
 
     if (error) {
       console.error("Error updating creator:", error);
-      alert("❌ Failed to update creator");
+      alert("Failed to update creator");
     } else {
-      alert("✅ Creator updated!");
+      alert("Creator updated!");
       navigate(`/creator/${id}`);
     }
   }

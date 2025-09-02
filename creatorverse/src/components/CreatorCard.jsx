@@ -13,7 +13,6 @@ export default function CreatorCard({ name, url, description, imageURL }) {
         <h2 className="card-title">{name}</h2>
         <p className="card-desc">{description}</p>
 
-        {/* clickable link */}
         {url && (
           <a
             href={url}

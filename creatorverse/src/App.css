@@ -109,10 +109,11 @@
 
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
   margin-top: 2rem;
   justify-items: center;  
+  width: 100%;
 }
 
 .creators-page {
@@ -122,4 +123,5 @@
   align-items: center;   
   justify-content: flex-start; 
   text-align: center;
+  flex-wrap: wrap;
 }
